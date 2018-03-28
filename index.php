@@ -13,7 +13,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    
+
   </head>
 
   <body>

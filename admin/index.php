@@ -1,3 +1,11 @@
+<?php
+if (isset($_POST['btn'])) {
+  require_once '../classes/class.login.php';
+  $login = new Login;
+  $login->admin_login_check($_POST);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
